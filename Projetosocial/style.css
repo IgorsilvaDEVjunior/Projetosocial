@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html, body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../pacote-d013/imagens/fundo-madeira.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+main{
+    position: relative;
+}
+
+section#telefone{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 7%);
+    height: 500px;
+    width: 250px;
+    background-image:url(../pacote-d013/imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+    background-size: 100%;  
+}
+iframe{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -49%);
+    height: 380px;
+    width: 215px;
+}
+section#icones{
+    height: 84.5vh;
+    width: 60px;
+    position: absolute;
+    right: 0px;
+    top: 6.7vh;
+}
+div{
+    background-color: rgb(77, 78, 141);
+    width: 43px;
+    height: 43px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+section#icones div#home{
+    background-image: url(../pacote-d013/imagens/logo-home.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+section#icones div#facebook{
+    background-image: url(../pacote-d013/imagens/logo-facebook.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+section#icones div#git{
+    background-image: url(../pacote-d013/imagens/logo-github.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+section#icones div#twitter{
+    background-image: url(../pacote-d013/imagens/logo-twitter.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+section#icones div#youtube{
+    background-image: url(../pacote-d013/imagens/logo-youtube.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+section#icones div#instagram{
+    background-image: url(../pacote-d013/imagens/logo-instagram.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
